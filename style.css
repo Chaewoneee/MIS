@@ -303,7 +303,7 @@ nav {
 
 /* --- Goals --- */
 .goals-grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     perspective: 1500px;
 }
 
@@ -413,6 +413,7 @@ nav {
 @media (max-width: 992px) {
     .hero h1 { font-size: 3rem; }
     .about-content, .contact-card { grid-template-columns: 1fr; }
+    .goals-grid { grid-template-columns: 1fr; }
     .contact-card { padding: 40px; }
 }
 
