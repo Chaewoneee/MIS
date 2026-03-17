@@ -3,385 +3,251 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="충북대학교 경영정보학과(MIS) 홈페이지 - 실무형 글로벌 리더를 양성하는 국내 최고 수준의 IT 경영 융합 학과">
-    <title>충북대학교 경영정보학과</title>
-    <!-- 폰트: 프리텐다드 (Pretendard) -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
-    <!-- 아이콘 패키지 (Remix Icon) -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
-    <!-- 커스텀 스타일시트 -->
+    <title>충북대학교 경영정보학과 | CBNU MIS</title>
+    <meta name="description" content="기업이 요구하는 실무 역량을 갖춘 글로벌 경영정보 리더를 양성하는 충북대학교 경영정보학과입니다.">
     <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Google Fonts에서 Inter와 Noto Sans KR을 불러옵니다. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- 네비게이션 헤더 -->
-    <nav id="navbar">
-        <div class="container nav-container">
-            <a href="#" class="logo">
-                <span class="logo-accent">CBNU</span> MIS
-            </a>
+    <!-- Navigation Area -->
+    <header>
+        <nav class="container">
+            <div class="logo">CBNU <span>MIS</span></div>
             <ul class="nav-links">
+                <li><a href="#hero">홈</a></li>
                 <li><a href="#about">인사말</a></li>
                 <li><a href="#history">연혁</a></li>
                 <li><a href="#goals">교육목표</a></li>
                 <li><a href="#faculty">교수진</a></li>
                 <li><a href="#contact">문의하기</a></li>
             </ul>
-            <div class="menu-toggle">
-                <i class="ri-menu-line"></i>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- 히어로 섹션 -->
-    <section id="hero" class="section">
-        <div class="hero-bg">
-            <img src="https://placehold.co/1200x800/A9BFE0/2D2A32?text=MIS+Department" alt="경영정보학과 메인 이미지" class="hero-img">
-            <div class="hero-overlay"></div>
-        </div>
-        <div class="container hero-content">
-            <span class="hero-tag fade-up">미래를 선도하는 디지털 혁신 리더</span>
-            <h1 class="fade-up delay-1">따뜻한 열정,<br><span>끝없는 혁신</span></h1>
-            <p class="fade-up delay-2">기업이 요구하는 실무기반의 글로벌 경영정보 리더 양성<br>충북대학교 경영정보학과입니다.</p>
-            <a href="#about" class="btn btn-primary fade-up delay-3">학과 소개 읽기 <i class="ri-arrow-down-line"></i></a>
-        </div>
-        <div class="scroll-indicator">
-            <div class="mouse"></div>
-        </div>
-    </section>
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero fade-up">
+            <div class="hero-bg">
+                <img src="design.png" alt="CBNU Campus Background" class="hero-img">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content container">
+                <h1 class="fade-up">따뜻한 열정,<br>끝없는 혁신</h1>
+                <p class="fade-up-delay-1">미래를 선도하는 디지털 혁신 리더의 요람<br>충북대학교 경영정보학과</p>
+                <div class="hero-btns fade-up-delay-2">
+                    <a href="#about" class="btn btn-primary">자세히 보기</a>
+                    <a href="#contact" class="btn btn-secondary">상담 문의</a>
+                </div>
+            </div>
+        </section>
 
-    <!-- 학과장 인사말 섹션 -->
-    <section id="about" class="section">
-        <div class="container">
+        <!-- About (Greeting) Section -->
+        <section id="about" class="section about container">
             <div class="section-title fade-up">
                 <h2>학과장 인사말</h2>
-                <div class="underline"></div>
+                <div class="title-line"></div>
             </div>
-            <div class="about-content">
-                <div class="about-text fade-up">
-                    <h3>"경영과 IT의 융합으로 세계적 수준의 학과로 발돋움하고 있습니다."</h3>
+            <div class="about-content grid">
+                <div class="about-image fade-up">
+                    <img src="김태경교수님.jpg" alt="김태경 학과장님" class="profile-img">
+                    <div class="image-bg-accent"></div>
+                    <div class="profile-label">
+                        <strong>김태경</strong>
+                        <span>충북대학교 경영정보학과장</span>
+                    </div>
+                </div>
+                <div class="about-text fade-up-delay-1">
+                    <h3>"글로벌 리더로 성장하도록 돕겠습니다"</h3>
                     <p>
-                        충북대학교 경영정보학과는 1987년 국립대 최초의 학부과정 설립을 시작으로 꾸준한 성장을 거듭해왔습니다. 국내 경영학 전공 중 가장 높은 수준의 교육 및 연구 예산을 확보하였고, 국내 관련 학과 중 최초로 경영학 교육 인증을 획득한 경쟁력 있는 학과입니다.
+                        충북대학교 경영정보학과는 1987년 국립대 최초의 학부과정 설립을 시작으로 꾸준한 성장을 거듭해왔습니다. 국내 관련 학과 중 최초로 경영학 교육 인증을 획득하였으며 최고의 교수진과 교육 예산을 확보하고 있습니다.
                     </p>
                     <p>
-                        우리가 추구하는 목표는 <strong>세계화 능력을 겸비하여 취업에 강한 경영정보인력</strong>을 양성하는 것입니다. 이를 위해 기업이 요구하는 커뮤니케이션 능력, 시스템 사고 능력, 창의적이고 윤리적인 의사결정 능력, 실무기반의 전문능력과 인격을 두루 살필 수 있는 교육과정을 운영하고 있습니다. 현재는 취업률 국내 1위 (100%, 국가고시 등 준비자 제외)와 학과 선호도 국내 1위를 향해 달려가고 있습니다.
+                        MIS(경영정보학)는 정보기술을 경영에 효과적으로 활용하는 지적 네트워크의 중심입니다. 경영학, 정보기술, 그리고 그 융합 영역을 넘나드는 짜임새 있는 교육을 통해 여러분이 시대가 요구하는 진정한 전문가가 될 수 있도록 뒷받침하겠습니다.
                     </p>
-                    <p>
-                        경영정보학과는 교과과정의 수요를 민감하게 고려하고, 실무형 인재양성을 현실화할 수 있는 유능한 교수진을 확보하며, 재학생의 선후배, 동료, 나아가 졸업 동문과의 지식 네트워크를 구축 및 확대하는데 노력을 기울이고 있습니다. 이와 같은 활동을 통해 지역사회 및 국가와 긴밀히 협력하며 더 큰 가치를 창출하고 있습니다.
-                    </p>
-                    <p>
-                        경영정보학과의 교수, 직원, 재학생, 동문이 합심하여 여러분을 글로벌 리더가 되도록 도와드리겠습니다.
-                    </p>
-                    
-                    <div class="signature">
-                        <div class="sign-info">
-                            <span class="sign-name">김태경</span>
-                            <span class="sign-title">충북대학교 경영정보학과장</span>
+                    <div class="about-stats grid">
+                        <div class="stat-card">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">취업률 목표</span>
                         </div>
-                        <img src="김태경교수님.jpg" alt="김태경 학과장 사진" class="sign-img">
+                        <div class="stat-card">
+                            <span class="stat-number">No.1</span>
+                            <span class="stat-label">학과 선호도</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- 연혁 섹션 -->
-    <section id="history" class="section bg-light">
-        <div class="container">
+        <!-- History Section -->
+        <section id="history" class="section history light-bg">
+            <div class="container">
+                <div class="section-title fade-up">
+                    <h2>학과 연혁</h2>
+                    <div class="title-line"></div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="year">1987. 11</span>
+                            <h3>국립대 최초 학부과정 설립</h3>
+                            <p>대한민국 국립대학교 중 처음으로 경영정보학의 태동을 알렸습니다.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="year">1999. 11</span>
+                            <h3>석·박사 대학원 과정 개설</h3>
+                            <p>학문을 넘어 깊이 있는 연구 체계를 구축하였습니다.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="year">2000s</span>
+                            <h3>지방대학혁신역량 강화사업(NURI) 선정</h3>
+                            <p>5년간 총 40억 원 규모의 대형 국책 사업을 수행하며 전국 최고 수준의 인프라를 구축했습니다.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="year">현재</span>
+                            <h3>국내 최초 경영교육 인증 획득</h3>
+                            <p>한국경영교육인증원에서 국내 관련 학과 중 최초로 인증을 취득하여 교육의 질을 증명했습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Educational Goals Section -->
+        <section id="goals" class="section goals container">
             <div class="section-title fade-up">
-                <h2>학과 연혁</h2>
-                <div class="underline"></div>
-            </div>
-            
-            <div class="timeline">
-                <div class="timeline-item fade-up">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h4>1987. 11</h4>
-                        <p><strong>경영정보학과 신설 (국립대 최초)</strong><br>국립대학 최초로 경영정보학부 과정을 개설하며 인재 양성 시작</p>
-                    </div>
-                </div>
-                <div class="timeline-item fade-up">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h4>1999. 11</h4>
-                        <p><strong>대학원 석박사 과정 신설</strong><br>심도있는 학문 연구 및 전문성 확보를 위한 대학원 과정 개설</p>
-                    </div>
-                </div>
-                <div class="timeline-item fade-up">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h4>2004. 07</h4>
-                        <p><strong>지방대학 혁신역량 강화사업(NURI사업) 선정</strong><br>교육인적자원부 지원 선정 (5년간 약 40억원 예산 지원)</p>
-                    </div>
-                </div>
-                <div class="timeline-item fade-up">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h4>2008. 10</h4>
-                        <p><strong>경영학교육 인증 획득 (경영정보분야 최초)</strong><br>한국경영교육인증원으로부터 국내 최초로 관련 학과 경영학 교육 인증 획득</p>
-                    </div>
-                </div>
-                <div class="timeline-item fade-up">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h4>2012 ~ 2014</h4>
-                        <p><strong>글로벌 및 전문 역량 강화</strong><br>정보보호경영학과(대학원) 신설(2012), BK21플러스 사업 선정(2013), GLOMIS(한-EU 공동석사학위과정) 신설(2014)</p>
-                    </div>
-                </div>
-                <div class="timeline-item fade-up">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h4>2010 ~ 현재</h4>
-                        <p><strong>우수 및 최우수학과 지속 선정</strong><br>2010년부터 현재까지 우수학과 및 최우수학과(2016, 2018)로 교내 다수 선정되며 저력 입증</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 교육목표 섹션 -->
-    <section id="goals" class="section">
-        <div class="container">
-            <div class="section-title text-center fade-up">
                 <h2>교육 목표</h2>
-                <div class="underline mx-auto"></div>
-                <p class="subtitle mt-3">실무기반의 전문능력과 인격을 겸비한 취업에 강한 세계화된 경영정보인력 양성</p>
+                <p>기업이 요구하는 4대 핵심 역량을 갖춘 글로벌 인재 양성</p>
+                <div class="title-line"></div>
             </div>
-            
-            <div class="goals-grid mt-5">
+            <div class="goals-grid grid">
                 <div class="goal-card fade-up">
-                    <div class="goal-icon">
-                        <i class="ri-chat-1-line"></i>
-                    </div>
+                    <div class="goal-icon">💬</div>
                     <h3>커뮤니케이션 능력</h3>
-                    <p>조직 내외부의 다양한 이해관계자와 원활하게 소통하고 협업할 수 있는 탁월한 의사소통 능력을 배양합니다.</p>
+                    <p>조직 내외부의 다양한 이해관계자와 협업하며 정확하게 의견을 전달하고 조율하는 소통 역량을 키웁니다.</p>
                 </div>
-                <div class="goal-card fade-up delay-1">
-                    <div class="goal-icon">
-                        <i class="ri-mind-map"></i>
-                    </div>
+                <div class="goal-card fade-up-delay-1">
+                    <div class="goal-icon">🧩</div>
                     <h3>시스템 사고 능력</h3>
-                    <p>비즈니스 문제를 전체적인 관점에서 파악하고, 정보기술을 활용하여 통합적인 해결책을 도출하는 역량을 키웁니다.</p>
+                    <p>비즈니스 문제를 전체적인 관점에서 조망하고 데이터에 기반하여 통합적인 해결책을 도출합니다.</p>
                 </div>
-                <div class="goal-card fade-up delay-2">
-                    <div class="goal-icon">
-                        <i class="ri-scales-3-line"></i>
-                    </div>
+                <div class="goal-card fade-up-delay-2">
+                    <div class="goal-icon">💡</div>
                     <h3>창의적 윤리 의사결정</h3>
-                    <p>급변하는 환경에서 혁신적인 아이디어를 제안하며, 투명하고 윤리적인 기준을 바탕으로 바른 결정을 내립니다.</p>
+                    <p>변화하는 환경 속에서 혁신적인 아이디어를 제안하고, 공공의 이익과 윤리적 기준을 준수하며 올바른 선택을 합니다.</p>
                 </div>
-                <div class="goal-card fade-up delay-3">
-                    <div class="goal-icon">
-                        <i class="ri-macbook-line"></i>
-                    </div>
+                <div class="goal-card fade-up-delay-3">
+                    <div class="goal-icon">💻</div>
                     <h3>실무기반 전문성</h3>
-                    <p>경영학과 정보기술의 융합영역을 학습하고 해외 인턴십 등 실전 파견을 통해 현장 적응력이 뛰어난 실무 전문가로 성장합니다.</p>
+                    <p>경영과 IT 융합의 현장 실습과 인턴십을 통해 입사와 동시에 성과를 낼 수 있는 실전 역량을 갖춥니다.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- 교수진 소개 섹션 -->
-    <section id="faculty" class="section bg-light">
-        <div class="container">
-            <div class="section-title text-center fade-up">
-                <h2>교수진 소개</h2>
-                <div class="underline mx-auto"></div>
-                <p class="subtitle mt-3">경영과 정보기술의 융합을 이끄는 전문 교수진입니다.</p>
-            </div>
-            
-            <div class="faculty-grid mt-5">
-                <!-- 1. 김태경 (학과장) -->
-                <div class="faculty-card fade-up">
-                    <div class="faculty-img">
-                        <img src="김태경교수님.jpg" alt="김태경 학과장 사진">
-                        <div class="faculty-overlay">
-                            <a href="mailto:kimtk@chungbuk.ac.kr" class="faculty-link"><i class="ri-mail-line"></i></a>
-                        </div>
-                    </div>
-                    <div class="faculty-info">
-                        <h4>김태경</h4>
-                        <span class="role">학과장 / 교수</span>
-                        <p class="specialty" style="color: var(--primary-blue); font-weight: 500;">경영정보</p>
-                        <p class="specialty mt-2">비즈니스 프로그래밍, 비즈니스 프로세스 통합</p>
-                    </div>
+        <!-- Faculty Section -->
+        <section id="faculty" class="section faculty light-bg">
+            <div class="container">
+                <div class="section-title fade-up">
+                    <h2>교수진 소개</h2>
+                    <div class="title-line"></div>
                 </div>
-
-                <!-- 2. 권순동 -->
-                <div class="faculty-card fade-up delay-1">
-                    <div class="faculty-img">
-                        <img src="권순동 교수님.jpg" alt="권순동 교수 사진">
-                        <div class="faculty-overlay">
-                            <a href="mailto:sdkwon@chungbuk.ac.kr" class="faculty-link"><i class="ri-mail-line"></i></a>
+                <div class="faculty-grid">
+                    <div class="faculty-card fade-up">
+                        <div class="faculty-img-wrapper">
+                            <img src="김태경교수님.jpg" alt="김태경 교수">
+                            <div class="faculty-overlay">
+                                <a href="mailto:tk@cbnu.ac.kr" class="faculty-link"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <div class="faculty-info">
+                            <h4>김태경</h4>
+                            <p class="role">학과장 / 교수</p>
+                            <p class="specialty">비즈니스 프로그래밍, 프로세스 통합</p>
                         </div>
                     </div>
-                    <div class="faculty-info">
-                        <h4>권순동</h4>
-                        <span class="role">교수</span>
-                        <p class="specialty" style="color: var(--primary-blue); font-weight: 500;">경영정보</p>
-                        <p class="specialty mt-2">경영정보시스템, 공급사슬관리론</p>
-                    </div>
-                </div>
-                
-                <!-- 3. 김태성 -->
-                <div class="faculty-card fade-up delay-2">
-                    <div class="faculty-img">
-                        <img src="김태성 교수님.jpg" alt="김태성 교수 사진">
-                        <div class="faculty-overlay">
-                            <a href="mailto:kimts@chungbuk.ac.kr" class="faculty-link"><i class="ri-mail-line"></i></a>
+                    <div class="faculty-card fade-up">
+                        <div class="faculty-img-wrapper">
+                            <img src="권순동 교수님.jpg" alt="권순동 교수">
+                            <div class="faculty-overlay">
+                                <a href="mailto:kwon@cbnu.ac.kr" class="faculty-link"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <div class="faculty-info">
+                            <h4>권순동</h4>
+                            <p class="role">교수</p>
+                            <p class="specialty">경영정보시스템, 공급사슬관리론</p>
                         </div>
                     </div>
-                    <div class="faculty-info">
-                        <h4>김태성</h4>
-                        <span class="role">교수</span>
-                        <p class="specialty" style="color: var(--primary-blue); font-weight: 500;">경영과학</p>
-                        <p class="specialty mt-2">정보보호관리, 기술경영론</p>
-                    </div>
-                </div>
-
-                <!-- 4. 서동백 -->
-                <div class="faculty-card fade-up delay-3">
-                    <div class="faculty-img">
-                        <img src="서동백 교수님.jpg" alt="서동백 교수 사진">
-                        <div class="faculty-overlay">
-                            <a href="mailto:dseo@chungbuk.ac.kr" class="faculty-link"><i class="ri-mail-line"></i></a>
+                    <div class="faculty-card fade-up">
+                        <div class="faculty-img-wrapper">
+                            <img src="김태성 교수님.jpg" alt="김태성 교수">
+                            <div class="faculty-overlay">
+                                <a href="mailto:tskim@cbnu.ac.kr" class="faculty-link"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <div class="faculty-info">
+                            <h4>김태성</h4>
+                            <p class="role">교수</p>
+                            <p class="specialty">정보보호관리, 기술경영론</p>
                         </div>
                     </div>
-                    <div class="faculty-info">
-                        <h4>서동백</h4>
-                        <span class="role">교수</span>
-                        <p class="specialty" style="color: var(--primary-blue); font-weight: 500;">경영정보</p>
-                        <p class="specialty mt-2">경영정보시스템, 디지털산업론, 창의적 사고와 디지털 비즈니스</p>
-                    </div>
-                </div>
-
-                <!-- 5. 송대진 -->
-                <div class="faculty-card fade-up">
-                    <div class="faculty-img">
-                        <img src="송대진 교수님.jpg" alt="송대진 교수 사진">
-                        <div class="faculty-overlay">
-                            <a href="mailto:dsong@chungbuk.ac.kr" class="faculty-link"><i class="ri-mail-line"></i></a>
-                        </div>
-                    </div>
-                    <div class="faculty-info">
-                        <h4>송대진</h4>
-                        <span class="role">교수</span>
-                        <p class="specialty" style="color: var(--primary-blue); font-weight: 500;">경영정보</p>
-                        <p class="specialty mt-2">지식경영, 시스템시뮬레이션</p>
-                    </div>
-                </div>
-
-                <!-- 6. 이정환 -->
-                <div class="faculty-card fade-up delay-1">
-                    <div class="faculty-img">
-                        <img src="이정환 교수님.png" alt="이정환 교수 사진">
-                        <div class="faculty-overlay">
-                            <a href="mailto:junghwan@cbnu.ac.kr" class="faculty-link"><i class="ri-mail-line"></i></a>
-                        </div>
-                    </div>
-                    <div class="faculty-info">
-                        <h4>이정환</h4>
-                        <span class="role">교수</span>
-                        <p class="specialty" style="color: var(--primary-blue); font-weight: 500;">기술경영</p>
-                        <p class="specialty mt-2">계량경영학, 프로그래밍언어</p>
-                    </div>
-                </div>
-
-                <!-- 7. 이준영 -->
-                <div class="faculty-card fade-up delay-2">
-                    <div class="faculty-img">
-                        <img src="이준영 교수님.jpg" alt="이준영 교수 사진">
-                        <div class="faculty-overlay">
-                            <a href="mailto:junyeong.lee@cbnu.ac.kr" class="faculty-link"><i class="ri-mail-line"></i></a>
-                        </div>
-                    </div>
-                    <div class="faculty-info">
-                        <h4>이준영</h4>
-                        <span class="role">교수</span>
-                        <p class="specialty" style="color: var(--primary-blue); font-weight: 500;">경영정보</p>
-                        <p class="specialty mt-2">프로그래밍언어, 비즈니스프로세스분석과응용소프트웨어설계</p>
-                    </div>
-                </div>
-
-                <!-- 8. 조완섭 -->
-                <div class="faculty-card fade-up delay-3">
-                    <div class="faculty-img">
-                        <img src="조완섭 교수님.jpg" alt="조완섭 교수 사진">
-                        <div class="faculty-overlay">
-                            <a href="mailto:wscho@chungbuk.ac.kr" class="faculty-link"><i class="ri-mail-line"></i></a>
-                        </div>
-                    </div>
-                    <div class="faculty-info">
-                        <h4>조완섭</h4>
-                        <span class="role">교수</span>
-                        <p class="specialty" style="color: var(--primary-blue); font-weight: 500;">전산학</p>
-                        <p class="specialty mt-2">데이터베이스시스템, 비즈니스인텔리전스, 빅데이터, 블록체인</p>
-                    </div>
-                </div>
-
-                <!-- 9. 최상현 -->
-                <div class="faculty-card fade-up">
-                    <div class="faculty-img">
-                        <img src="최상현 교수님.jpg" alt="최상현 교수 사진">
-                        <div class="faculty-overlay">
-                            <a href="mailto:chois@cbnu.ac.kr" class="faculty-link"><i class="ri-mail-line"></i></a>
-                        </div>
-                    </div>
-                    <div class="faculty-info">
-                        <h4>최상현</h4>
-                        <span class="role">교수</span>
-                        <p class="specialty" style="color: var(--primary-blue); font-weight: 500;">경영정보</p>
-                        <p class="specialty mt-2">AI 데이터마이닝, 비즈니스프로세스관리, 경영통계학</p>
-                    </div>
-                </div>
-
-                <!-- 10. 이규민 -->
-                <div class="faculty-card fade-up delay-1">
-                    <div class="faculty-img">
-                        <img src="이규민 교수님.jpg" alt="이규민 교수 사진">
-                        <div class="faculty-overlay">
-                            <a href="mailto:kyumin.lee@chungbuk.ac.kr" class="faculty-link"><i class="ri-mail-line"></i></a>
-                        </div>
-                    </div>
-                    <div class="faculty-info">
-                        <h4>이규민</h4>
-                        <span class="role">교수</span>
-                        <p class="specialty" style="color: var(--primary-blue); font-weight: 500;">통계물리학</p>
-                        <p class="specialty mt-2">경영 AI 프로젝트</p>
-                    </div>
+                    <!-- 추가 교수진 공간 -->
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- 푸터 및 문의하기 -->
-    <footer id="contact" class="footer">
+        <!-- Contact Section -->
+        <section id="contact" class="section contact container fade-up">
+            <div class="contact-card grid">
+                <div class="contact-info">
+                    <h2>도전은 계속됩니다</h2>
+                    <p>지금 바로 충북대학교 경영정보학과의 전문가들과 상담하세요.</p>
+                    <ul class="contact-details">
+                        <li><strong>ADDRESS:</strong> [28644] 충북 청주시 서원구 충대로 1 (N13동) 217호</li>
+                        <li><strong>TEL:</strong> 043-261-2355</li>
+                        <li><strong>FAX:</strong> 043-273-2355</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://mis.chungbuk.ac.kr" target="_blank" class="btn btn-outline">공식 홈페이지 방문</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <input type="text" placeholder="성함" required>
+                        <input type="email" placeholder="이메일" required>
+                        <textarea placeholder="궁금하신 내용을 입력해주세요" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary submit-btn">메시지 보내기</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
         <div class="container footer-content">
-            <div class="footer-info">
-                <h3>충북대학교 경영정보학과</h3>
-                <p>Management Information Systems</p>
-                <div class="contact-details mt-3">
-                    <p><i class="ri-map-pin-2-fill"></i> [28644] 충북 청주시 서원구 충대로 1 충북대학교 경영대학(N13동) 217호</p>
-                    <p><i class="ri-phone-fill"></i> 전화: 043-261-2355</p>
-                    <p><i class="ri-printer-fill"></i> 팩스: 043-273-2355</p>
-                </div>
-            </div>
-            <div class="footer-links">
-                <h4>바로가기</h4>
-                <ul>
-                    <li><a href="https://mis.chungbuk.ac.kr/" target="_blank">학과 공식 홈페이지</a></li>
-                    <li><a href="https://www.chungbuk.ac.kr/" target="_blank">충북대학교 홈페이지</a></li>
-                    <li><a href="#">입학안내</a></li>
-                    <li><a href="#">개인정보처리방침</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Chungbuk National University Dept. of MIS. All Rights Reserved. (Demo Site)</p>
+            <div class="footer-logo">CBNU MIS</div>
+            <p>&copy; 2024 Chungbuk National University Dept. of MIS. All Rights Reserved.</p>
         </div>
     </footer>
 
-    <!-- 자바스크립트 -->
     <script src="script.js"></script>
 </body>
 </html>
